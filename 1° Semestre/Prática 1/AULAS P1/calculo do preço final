@@ -1,0 +1,24 @@
+// Faça um programa que C que calcule os impostos incluídos no preço de um produto (preço final = (1 + ICMS + COFINS + PIS/PASEP) x preço inicial). Considere ICMS igual a 17%, COFINS igual a 7,6% e PIS/PASEP igual a 1,65%. //
+#include <stdio.h>
+#include <math.h>
+
+int main () {
+  float ICMS;
+  float COFINS;
+  float PIS;
+
+  printf("fale o valor de ICMS:\n");
+  scanf("%f", &ICMS);
+
+    printf("fale o valor de cofins\n");
+  scanf("%f", &COFINS);
+
+  printf("fale o valor de pis\n");
+  scanf("%f", &PIS);
+
+  float preco_final = 1 + (ICMS * 0.17) + (COFINS * 0.076) + (PIS * 0.0165);
+
+  printf(" valor de (%.2f * 0.17) + 1 + (%.2f * 0.076) + (%.2f * 0,0165) = %.2f", ICMS, COFINS, PIS, preco_final);
+
+  return 0;
+}
