@@ -10,15 +10,15 @@ int fabricacao;
   scanf("%f", &compra);
 
   printf(" \ndigite o ano de fabricação\n");
-  scanf("%d" &fabricacao);
+  scanf("%d", &fabricacao);
 
   printf("\nfale o ano de depreciação\n");
-  scanf("%d" &ano_depreciacao);
+  scanf("%d", &ano_depreciacao);
 
-  float depreciacao = (ano_depreciacao - fabricacao) * 0,01 * compra;
+  float depreciacao = (ano_depreciacao - fabricacao) * 0.01 * compra;
 
-  printf ("\na depreciação do seu veiculo é %f", depreciacao);
+  printf ("\na depreciação do seu veiculo é %.f", depreciacao);
 
-  return 0 
+  return 0;
   
 }
