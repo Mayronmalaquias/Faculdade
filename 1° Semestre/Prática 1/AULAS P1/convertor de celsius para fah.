@@ -1,0 +1,16 @@
+// Faça um programa em C que leia uma temperatura em graus Celsius e calcule o valor correspondente em graus Fahrenheit (°F = 9/5°C + 32).
+
+#include <stdio.h> 
+
+ int main () {
+float celc = 0;
+
+   printf("fale o valor de celsius para converter em fahrenheit\n");
+   scanf("%f", &celc);
+
+  float fah = (celc * 9) / 5 + 32;
+
+   printf("ele será %.2f fahrenheit", fah);  
+
+  return 0;
+}
