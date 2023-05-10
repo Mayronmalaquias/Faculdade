@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+  int cent, dez, numero, unid;
+  printf("de um valor q direi quantas centenas, dezenas e unidades possui\n");
+  scanf("%i", &numero);
+
+  cent = numero / 100;
+  dez = (numero - cent * 100) / 10; 
+  unid = numero - ( cent * 100 + dez *10);
+
+  printf ("seu valor tem %.i centenas, %.i dezenas, %.i unidades ", cent, dez, unid);
+  return 0;
+}
