@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main(void) {
+  int numero;
+  printf ("-----------------------------------------\n");
+  printf ("---BEM-VINDO-A-TABUADA-DE-MULTIPLICAÇÃO--\n");
+
+  printf("\n--fale um numero para eu montar a tabela--\n");
+  scanf("%i", &numero);
+
+  int m1 = numero * 1;
+  int m2 = numero * 2;
+  int m3 = numero * 3;
+  int m4 = numero * 4;
+  int m5 = numero * 5;
+  int m6 = numero * 6;
+  int m7 = numero * 7;
+  int m8 = numero * 8;
+  int m9 = numero * 9;
+  int m10 = numero * 10;
+  printf("--------- TABELA--DE-MULTIPLICAÇÃO--------\n");
+  printf("%i x 1 = %i %23i x 6 = %i\n", numero, m1, numero, m6);
+  printf("%i x 2 = %i %23i x 7 = %i\n", numero, m2, numero, m7);
+  printf("%i x 3 = %i %23i x 8 = %i\n", numero, m3, numero, m8);
+  printf("%i x 4 = %i %23i x 9 = %i\n", numero, m4, numero, m9);
+  printf("%i x 5 = %i %22i x 10 = %i\n", numero, m5, numero, m10);
+  printf("--------------------------------------------");
+  return 0;
+}
