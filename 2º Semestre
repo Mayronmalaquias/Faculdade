@@ -1,3 +1,4 @@
+git clone https://github.com/seunomeusuario/nomerepositorio.git
 git add nome_da_pasta
 git commit -m "Adicionando nova pasta"
 git push
