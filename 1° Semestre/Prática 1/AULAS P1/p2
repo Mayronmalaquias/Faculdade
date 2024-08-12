@@ -1,0 +1,24 @@
+// Faça um programa em C que leia o valor de compra, o ano de fabricação e o ano de depreciação e calcule o valor depreciado de um veículo (depreciação = (ano de depreciação - ano de fabricação) x 0,01 x valor de compra).
+#include <stdio.h>
+
+int main() {
+  float compra;
+int fabricacao;
+  int ano_depreciacao;
+
+  printf(" fale o valor que foi comprado seu carro\n");
+  scanf("%f", &compra);
+
+  printf(" \ndigite o ano de fabricação\n");
+  scanf("%d", &fabricacao);
+
+  printf("\nfale o ano de depreciação\n");
+  scanf("%d", &ano_depreciacao);
+
+  float depreciacao = (ano_depreciacao - fabricacao) * 0.01 * compra;
+
+  printf ("\na depreciação do seu veiculo é %.f", depreciacao);
+
+  return 0;
+  
+}

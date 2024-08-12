@@ -1,0 +1,5 @@
+<div class="bubble-element Group coaOaRaJ bubble-r-container flex column" style="align-self: center; min-width: 0px; max-width: 200px; order: 4; min-height: 0px; width: max-content; flex-grow: 0; height: max-content; margin: 0px 0px 0px 15px; z-index: 10; overflow: visible; justify-content: flex-start; row-gap: 5px; border-radius: 0px; opacity: 1;">
+
+
+<button class="clickable-element bubble-element Button coaOaRaD" style="background-color: var(--color_primary_default); align-self: flex-end; min-width: 200px; order: 3; min-height: 35px; height: max-content; flex-grow: 0; flex-shrink: 0; width: calc(100% + 0px); margin: 0px; font-family: var(--font_default); font-size: 14px; font-weight: 400; color: rgb(255, 255, 255); text-align: center; line-height: 1; border-radius: 3px; opacity: 1; cursor: pointer;">
+Detalhes do Imóvel</button></div>

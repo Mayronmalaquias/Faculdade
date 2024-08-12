@@ -1,0 +1,27 @@
+//Faça um programa em C que leia três números reais e imprima a média aritmética destes números.
+
+#include <stdio.h>
+#include <math.h>
+
+int main () {
+  float NUMERO1 = 0;
+  float NUMERO2 = 0;
+  float NUMERO3 = 0;
+
+  printf("Vamos calcular a media aritimetica de 3 valores\n");
+  printf("\nFale o primeiro numero\n");
+  scanf("%f", &NUMERO1);
+
+  printf("\nFale o segndo numero\n");
+  scanf("%f", &NUMERO2);
+
+  printf("\nFale o terceiro numero\n");
+  scanf("%f", &NUMERO3);
+
+  float media = (NUMERO1 + NUMERO2 + NUMERO3)/ 3 ;
+
+  printf("\nsua media deu %.f\n", media);
+  
+  return 0 ;
+}
+

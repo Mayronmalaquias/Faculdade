@@ -1,0 +1,14 @@
+//aça um programa em C que converta um valor qualquer em Gigabytes para um valor em bytes (1GB = 1024³Bytes).
+#include <math.h>
+#include <stdio.h>
+
+int main() {
+  float GB;
+  printf("fale um valor pra eu converter em giga byte\n");
+  scanf("%f", &GB);
+  
+double gigabyte = GB * (1024 * 1024 * 1024);
+  printf("esse valor possui %f bytes", gigabyte);
+  
+      return 0;
+}

@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+
+  const double PI = 3.1416;
+  int raio = 0;
+  printf("fale o valor do raio da pizza:\n");
+  scanf("%i", &raio);
+
+  double perimetro_da_pizza = 2 * PI * raio;
+  printf("o perimetro é %f\n", perimetro_da_pizza);
+  
+  return 0;
+}

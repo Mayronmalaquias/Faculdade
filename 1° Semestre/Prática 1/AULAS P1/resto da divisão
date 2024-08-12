@@ -1,0 +1,22 @@
+// Faça um programa em C que leia dois números inteiros e imprima o quociente e
+// o resto da divisão entre eles.
+
+#include <stdio.h>
+
+int main() {
+  int numero1 = 0;
+  float numero2 = 0;
+  float resto = 0;
+
+  printf("calule o resto de divisão de 2 numeros!\n");
+  printf("fale o valor do primeiro numero\n");
+  scanf("%i", &numero1);
+
+  printf("fale o valoe do segundo numero\n");
+  scanf("%f", &numero2);
+
+  resto = (numero1 / numero2);
+  printf ("\no resto dessa divisão é %.f", resto);
+
+  return 0;
+}

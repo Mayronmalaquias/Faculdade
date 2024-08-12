@@ -1,0 +1,26 @@
+#include <math.h>
+#include <stdio.h>
+// gcc raiz.c -o (gato) -lm
+
+int main() {
+  /*entrada*/
+  float numero;
+  printf("Entre com um numero: \n");
+  scanf("%f", &numero);
+
+  /*processaento*/
+  float raiz = sqrt(numero);
+  /*saida*/
+  printf("A Raiz de %.f é: %.f\n", numero, raiz);
+  
+  float numero2;
+  printf("\nEntre com outro numero: \n");
+  scanf("%f", &numero2);
+
+  /*processaento*/
+  float raiz2 = sqrt(numero2);
+  /*saida*/
+  printf("A Raiz de %.f é: %.f\n", numero2, raiz2);
+
+  return 0;
+}
